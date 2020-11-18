@@ -1,35 +1,5 @@
 //ECMAScript6
 
-    //------>ARROW FUNCTION<-------
-
-//Uso da arrow function padrão
-var sum = (a, b) => a + b; 
-
-var sub = (a, b) => a - b;
-
-//Para criar um variável/ estabelecer um corpo para função é necessário o uso de chaves
-var div = (a, b) => {
-    var unknow = 0;
-    return a / b; 
-};
-
-var mul = (a, b) => { 
-    var unknow = 0;
-    return a * b; 
-};
-
-//Para um único parametro não é necessário o uso de parênteses
-var test = a => a + 10;
-
-console.log('Operações básicas');
-console.log(sum(10, 5));
-console.log(sub(10, 5));
-console.log(div(10, 5));
-console.log(mul(10, 5));
-console.log(test(10));
-
-//-------------------------------------------------
-
     //------>DEFAULT FUNCTION ARGUMENTS<-------
 
 //Notas
@@ -64,13 +34,13 @@ console.log(multiply_simplified(5, undefined));
 
 //[Lazy evaluation]
 //Também é possível atribuir uma função toda vez que o parâmetro não for passado
-function randomNumber() {
+function random_number() {
     return Math.random();
 };
 
-function multiply_randonNumber(a, b = randomNumber()) {
+function multiply_randon_number(a, b = random_number()) {
     return a * b;
 }
 
-console.log('Multiply_randonNumber...');
-console.log(multiply_randonNumber(5));
+console.log('Multiply_randon_number...');
+console.log(multiply_randon_number(5));
