@@ -1,4 +1,4 @@
-//Maneira clássica de escrever objetos literais
+// Maneira clássica de escrever objetos literais
 
 var prop1 = 'Padrão';
 
@@ -9,7 +9,7 @@ var obj = {
 console.log('Maneira clássica...');
 console.log(obj);
 
-//Com o uso do [Short Range] o lado direito pode ser omitido para definir valores para propriedades e métodos
+// Com o uso do [Short Range] o lado direito pode ser omitido para definir valores para propriedades e métodos
 
 var prop1 = 'Padrão';
 
@@ -17,7 +17,7 @@ var obj = {
     prop1 
 };
 
-//Outro exemplo de [Short Range], dessa vez omitindo a palavra "function"
+// Outro exemplo de [Short Range], dessa vez omitindo a palavra "function"
 
 var obj = {
     sum(a, b) {
@@ -25,4 +25,4 @@ var obj = {
     }
 };
 
-//console.log(obj.sum(1, 5));
+// console.log(obj.sum(1, 5));
