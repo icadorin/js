@@ -1,4 +1,4 @@
-// Remapear valores de um array adicionando ID utilizando map
+// Remapear valores de um array adicionando ID, utilizando map
 
 console.log("Remapeando array: ");
 
