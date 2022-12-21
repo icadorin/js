@@ -8,7 +8,7 @@ console.log(FilterNumbers); // output: 50, 80, 11, 15, 22, 27
 // Ou
 console.log("Filter(função extensa): ");
 function callbackFilter(value) {
-    return value > 10;
+  return value > 10;
 }
 
 const FilterNumbersExtensive = numbers.filter(callbackFilter);
@@ -16,11 +16,11 @@ console.log(FilterNumbersExtensive); // output: 50, 80, 11, 15, 22, 27
 
 // Outro exemplo
 const person = [
-    { nome: 'Luiz', idade: 62 },
-    { nome: 'Maria', idade: 23 },
-    { nome: 'Eduardo', idade: 49 },
-    { nome: 'Letícia', idade: 19 },
-    { nome: 'Wallace', idade: 47 },
+  { nome: 'Luiz', idade: 62 },
+  { nome: 'Maria', idade: 23 },
+  { nome: 'Eduardo', idade: 49 },
+  { nome: 'Letícia', idade: 19 },
+  { nome: 'Wallace', idade: 47 },
 ];
 
 const withMoreThan = person.filter(obj => obj.nome.length >= 5);

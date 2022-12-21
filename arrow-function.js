@@ -1,21 +1,21 @@
 // ECMAScript6
 
-    //------>ARROW FUNCTION<-------
+//------>ARROW FUNCTION<-------
 
 // Uso da arrow function padrão
-var sum = (a, b) => a + b; 
+var sum = (a, b) => a + b;
 
 var sub = (a, b) => a - b;
 
 // Para criar uma estabelecer um corpo para função é necessário o uso de chaves
 var div = (a, b) => {
-    var unknow = 0;
-    return a / b; 
+  var unknow = 0;
+  return a / b;
 };
 
-var mul = (a, b) => { 
-    var unknow = 0;
-    return a * b; 
+var mul = (a, b) => {
+  var unknow = 0;
+  return a * b;
 };
 
 // Para um único parametro não é necessário o uso de parênteses

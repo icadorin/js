@@ -1,3 +1,3 @@
-(function() {
-    console.log("Imediata");
+(function () {
+  console.log("Imediata");
 })();
